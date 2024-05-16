@@ -35,3 +35,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+img#imagem {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
