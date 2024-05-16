@@ -27,6 +27,11 @@ footer {
   font-style: italic;
 }
 
+div {
+  text-align: center;
+  padding: 8px;
+}
+
 a {
   text-decoration: none;
   color: white;
