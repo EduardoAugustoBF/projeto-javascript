@@ -1,65 +1,24 @@
-@charset "UTF-8";
-
-
-* {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-}
-
 body {
-  background-color: rgb(76, 148, 248);
+  background: rgb(70, 142, 236);
+  font: normal 15pt Arial;
 }
 
-
-h1 {
+header {
   color: white;
   text-align: center;
 }
 
 section {
-  background-color: white;
-  width: 450px;
-  height: 175px;
-  border-radius: 10px;
-  padding: 18px;
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  width: 500px;
   margin: auto;
-  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.395);
-}
-
-.fim {
-  margin-top: 12px;
-}
-
-button {
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.botao {
-  margin-top: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
 footer {
   color: white;
   text-align: center;
-  width: 450px;
-  margin: auto;
-  margin-top: 15px;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  border: 1px solid #eee;
-  border-radius: 10px;
- 
-}
-
-a:hover {
-  text-decoration: underline;
-  background-color: white;
-  color: #000;
-  transition: 0.7s;
+  font-style: italic;
 }
