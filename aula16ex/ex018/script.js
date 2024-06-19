@@ -21,9 +21,28 @@ function inLista(n, l) {
 
 function adicionar() {
   if(isNumero(num.value) && !inLista(num.value, valores)) {
-      window.alert('Tudo Ok')
+     valores.push(Number(num.value))
+     let item = document.createElement('option')
+     item.text = `valor ${num.value} adicionado.`
+     lista.appendChild(item)
+     res.innerHTML = ''
   } else {
     window.alert('Valor inválido ou já encontrado na lista.')
+  }
+  num.value = ''
+  num.focus()
+}
+
+function finalizar() { 
+
+  if (valores.length == 0) {
+    window.alert('Adicione valores antes de finalizar!')
+  } else {
+     let tot = valores.length
+
+    res.innerHTML = ''
+    res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
+
   }
 
 }
